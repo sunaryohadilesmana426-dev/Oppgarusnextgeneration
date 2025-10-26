@@ -1,0 +1,12 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Kontak — OPP Garus</title><link rel="stylesheet" href="css/style.css"></head><body><header class="container"><a href="index.html">← Kembali ke Home</a></header><main class="container"><article class="card"><h2>Kontak</h2><p class="meta">Alamat: KP. Cikunten, Kota</p><p class="meta">WhatsApp: +6285691138105</p><form id="contactForm" style="display:grid;gap:8px;margin-top:10px"><input type="text" id="name" name="name" placeholder="Nama lengkap" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef" required><input type="email" id="email" name="email" placeholder="Email" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef" required><textarea id="message" name="message" rows="4" placeholder="Pesan" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef"></textarea><button type="submit" style="padding:10px 14px;border-radius:8px;border:none;background:var(--red);color:#fff;font-weight:700">Kirim Pesan</button></form><div style="margin-top:10px;color:var(--muted);font-size:13px">Form ini demo; hubungkan ke Google Forms atau backend untuk menerima pesan.</div></article></main>
+<footer id="kontak">
+  <div class="container card" style="text-align:left;">
+    <h3>Kontak & Form</h3>
+    <p class="meta">Hubungi kami melalui:</p>
+    <p class="meta">Alamat: KP. Cikunten, Kota</p>
+    <p class="meta">Tel: +6285691138105</p>
+    <p class="meta">Email: contact@oppgarus.org (ganti dengan alamat resmi)</p>
+    <div style="margin-top:12px; text-align:center; color:var(--muted)">© 2005 OPP Garus — Organisasi Pemuda Pemudi Anti Rusuh</div>
+  </div>
+</footer>
+<script>document.getElementById('contactForm').addEventListener('submit', function(e){e.preventDefault();alert('Terima kasih! Pesanmu telah dikirim (demo).');this.reset();});</script></body></html>
